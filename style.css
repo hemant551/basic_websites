@@ -1,0 +1,119 @@
+/*Sivun "alustan", eli alimmaisen osion asetukset. K‰ytet‰‰n jokaisella sivulla*/
+#background
+{
+	margin: 0;
+	padding: 0;
+	background-image: url('pictures/background1.PNG');
+	background-repeat: repeat-x;/*taustakuvaa toistetaan sivulla niin, ett‰ se peitt‰‰ koko sivun alustan.*/
+}
+
+a
+{
+	color: #333;
+	text-decoration: none;
+}
+
+#banner
+{
+	position: absolute;
+	left: 568px;
+	top: 10px;
+	height: 130px;
+	width: 220px;
+	border: 2px solid #222222;
+}
+
+/*T‰m‰ on koko sivuston "kehyksen" perusasetus. K‰ytet‰‰n jokaisella sivulla.*/
+#container
+{
+	width: 800px;/*div:n leveys*/
+	position: relative;/*sijainti sivulla*/
+	margin: auto;
+	color: #333;/*tekstin v‰ri*/
+	line-height: 130%;
+	font-family: Verdana;/*fontti*/
+	font-size: small;/*fonttikoko*/
+}
+
+/*Yl‰tunnisteen asetukset. K‰ytet‰‰n jokaisella sivulla.*/
+#topContainer
+{
+	clear: both;
+	float: left;
+	position: relative;
+	background-repeat: repeat-x;
+	background-position: left;/*kuvan sijainti oikeassa reunassa*/
+	background-image: url('banner.jpg');
+	background-color: black;
+	width: 798px;
+	height: 150px;
+	border: 1px solid gray;
+}
+
+#top
+{
+	position: relative;
+	margin: 6.0em;
+}
+
+/*Vasemman laidan asetukset, jossa linkit sijaitsevat. K‰ytet‰‰n jokaisella sivulla.*/
+#leftnavContainer
+{
+	float: left;	
+	position: relative;
+	background-color: #669900;
+	border-left: 1px solid gray;
+	width: 160px;
+}
+
+#leftnav
+{	
+	position: relative;
+	padding: 2em;
+}
+
+/*Perustekstin asetukset. K‰ytet‰‰n jokaisella sivulla.*/
+#contentContainer
+{	
+	float: left;
+	position: relative;
+	background-color: white;
+	width: 637px;
+	border-left: 1px solid gray;/*vasen reunaviiva*/
+	border-right: 1px solid gray;
+}
+
+#content
+{
+	padding: 20px;
+	position: relative;
+	margin-left: 50px;/*vasen marginaali*/
+}
+
+/*Alatunnisteen asetukset. K‰ytet‰‰n jokaisella sivulla.*/
+#footerContainer
+{
+	clear: both;
+	float: left;
+	position: relative;
+	width: 798px;
+	height: 100px;
+	background-image: url('bottom.bmp');
+	background-repeat: repeat-x;
+	border: 1px solid gray;/*yl‰reunaviivan asetukset*/
+}
+
+#footer
+{
+	position: relative;
+	padding: 2.5em;
+}
+
+#blankBottom
+{
+	float: left;
+	clear: both;
+	position: relative;
+	width: 798px;
+	height: 50px;
+}
